@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   root 'pages#index'
 
+  get 'teslas/index'
+
+  get 'teslas/models'
+
+  get 'teslas/pictures'
+
   get 'pages/index'
 
   get 'pages/about'
